@@ -1,0 +1,27 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Build do PyInstaller (o .exe vai para os Releases, não para o repositório)
+build/
+dist/
+*.spec
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Amostras e previews gerados automaticamente pelos testes
+amostras/
+preview_janela.png
+preview_real.png
+preview_real_sel.png
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
